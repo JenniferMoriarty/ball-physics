@@ -7,7 +7,7 @@ screen = pygame.display.set_mode((800, 800))#creates game screen
 clock = pygame.time.Clock()
 
 def collision(x1, y1, x2, y2):
-    if math.sqrt((y1-y2)**2 + (x1-x2)**2)<20+20:
+   #LINE ERASED: YOU MAKE A GUESS HERE!
         print("collision!")
         return True
     else:
